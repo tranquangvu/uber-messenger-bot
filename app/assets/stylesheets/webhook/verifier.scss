@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Denk+One';
+
+* {
+  margin: 0;
+}
+
+#webhook-verifier-container {
+  height: 100vh;
+  width: 100vw;
+  background: asset_url('bg.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  
+  .intro {
+    font-family: 'Denk One', sans-serif;
+    font-size: 45px;
+    color: #E6186B;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  a {
+    color: #551A8B;
+  }
+}
