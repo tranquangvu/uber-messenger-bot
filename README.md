@@ -1,24 +1,19 @@
-# README
+# Messenger Uber Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple messenger bot to book a driver in Uber
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+```
+  rbenv install 2.3.1
+  rbenv local 2.3.1
 
-* System dependencies
+  gem install bundler
+  bundle install
 
-* Configuration
+  bundle exec rake db:create
+  bundle exec rake db:migrate
+  bundle exec rake db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  rails s
+```
